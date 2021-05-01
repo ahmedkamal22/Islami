@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".HomeActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         </activity>
+        <activity android:name=".SuraDetailsActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
