@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import com.example.islami.adapters.SurasAdapter
 import com.kamal.islamiproject.Constants
 import com.kamal.islamiproject.R
-import com.kamal.islamiproject.SuraDetailsActivity
+import com.kamal.islamiproject.activities.SuraDetailsActivity
 import kotlinx.android.synthetic.main.fragment_quran.*
 
 class QuranFragment : Fragment() {

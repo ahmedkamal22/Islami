@@ -1,8 +1,10 @@
-package com.kamal.islamiproject
+package com.kamal.islamiproject.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.islami.adapters.AyaAdapter
+import com.kamal.islamiproject.Constants
+import com.kamal.islamiproject.R
 import kotlinx.android.synthetic.main.activity_sura_details.*
 import java.io.BufferedReader
 import java.io.IOException
