@@ -69,11 +69,8 @@ class Mb3QuranFragment : BaseFragment() {
         }
     }
 
-
-
-
-    fun playRadio(url:String) {
-        var mediaPlayer = MediaPlayer.create(context, Uri.parse(url))
+    val mediaPlayer = MediaPlayer()
+     fun playRadio(url:String) {
         stopRadio()
         mediaPlayer.setDataSource(activity!!,Uri.parse(url))
         mediaPlayer.prepareAsync()
@@ -82,8 +79,8 @@ class Mb3QuranFragment : BaseFragment() {
         }
     }
      fun stopRadio() {
-//        if(mediaPlayer.isPlaying)
-//            mediaPlayer.stop()
-//        mediaPlayer.reset()
+        if(mediaPlayer.isPlaying)
+            mediaPlayer.stop()
+        mediaPlayer.reset()
     }
 }
