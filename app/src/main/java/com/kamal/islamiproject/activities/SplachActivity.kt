@@ -13,7 +13,7 @@ class SplachActivity : BaseActivity() {
         setContentView(R.layout.activity_splach)
         Handler().postDelayed({
             MoveToHomeActivity()
-        },2000)
+        },7000)
     }
 
     private fun MoveToHomeActivity() {

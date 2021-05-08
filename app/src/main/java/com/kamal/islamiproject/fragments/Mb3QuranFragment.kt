@@ -80,7 +80,9 @@ class Mb3QuranFragment : BaseFragment() {
     }
      fun stopRadio() {
         if(mediaPlayer.isPlaying)
+        {
             mediaPlayer.stop()
+        }
         mediaPlayer.reset()
     }
 }
